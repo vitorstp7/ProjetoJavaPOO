@@ -8,3 +8,10 @@ public class Produto{
     private int id;
     private String nome;
     private Double preco;
+
+    public Produto(String nome, Double preco) {
+        this.id = count;
+        this.nome = nome;
+        this.preco = preco;
+        Produto.count += 1;
+    }
