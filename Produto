@@ -1,1 +1,6 @@
+package modelo;
 
+import utils.Utils;
+
+public class Produto{
+    private static int count = 1
